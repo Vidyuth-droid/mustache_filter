@@ -1,0 +1,16 @@
+h3{
+    font-size: 25px  !important;
+}
+.btn-success:hover{
+background-color: red;
+}
+canvas{
+    animation-name:nopity;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes nopity{
+    from{box-shadow: 10px 10px 50px rgb(255, 0, 0);}
+    to{box-shadow: 10px 10px 50px rgb(72, 255, 0);}
+}
